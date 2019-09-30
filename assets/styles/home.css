@@ -1,0 +1,170 @@
+*{
+    padding:0;
+    margin: 0;
+}
+nav{
+    position: absolute;
+    top: 0;
+    z-index: 2;
+}
+@media screen and (min-width: 992px){
+    body{
+       max-width: 100%;
+    }
+    main{
+        height: vh;
+    }
+
+    section nav{
+        background-color: rgba(0, 0,0,0.3);
+        color: white;
+        margin-left: 170px;
+        width: 91%;
+       
+    }
+
+    section nav ol{
+        padding: 30px;
+        list-style-type: none;;
+    }
+
+     section nav ol li{
+        float: right;
+        width: 100px;
+    }
+
+    section nav ol li a{
+        text-decoration: none;
+        color: white;
+        padding: 8px;
+        opacity: 0.8;
+        border-radius: 10px;
+    }
+
+
+
+    .container{
+        max-width: 100%;
+        padding: 0px;
+        background-color: purple;
+        fixed-width: 100vw !important;;
+        
+    }
+    main> ul{
+    /* z-index: -1; */
+    position: absolute;
+    left: 0px;
+    background-color:red;
+    display: inline-block;
+    width:150px;;
+    height: 100vh;
+    padding: 10px;
+}
+
+main ul li{
+    color: white;
+    /* background-color: orange; */
+    text-align: center;
+    padding: 4vh; 
+    font-weight: bold;
+    border-bottom: 1px solid white;
+}
+
+main section{
+    padding: 0;
+    width: 100%;
+    /* z-index: 1; */
+    background-color:#0d448c;
+}
+
+main section #text{
+    display: inline-block;
+    height: 100vh;
+    width: 30.5%;
+    background-color:#0d448c;
+    padding-left: 150px;
+     color: #eee;
+}
+main section #text h1{
+    padding-left: 10px;
+}
+main section #text  span{
+    
+    padding-left: 1.5em;
+}
+
+ #text div:first-child{
+    height: 30%;
+    width: 89%;
+    background-image: url("/assets/images/caf.webp");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 3em;
+}
+
+#text div:last-child{
+    padding: 1em;
+}
+#text div:last-child ol{
+    padding: 1em;
+    list-style-type: none;
+}
+#text div:last-child ol li{
+    margin-bottom: 1.2em;
+}
+
+#text div:last-child ol li span{
+    border-radius: 5px;
+    background-color: #444;
+    color: white;
+    padding:5px 9px;
+    margin-right: 1em;
+}
+
+main section #pic{
+    float: right;
+    display: inline-block;
+    height: 100vh;
+    width: 60%;
+    background-image: url("/assets/images/background4.jpg");
+    background-size: cover; 
+    background-repeat: no-repeat;
+}
+
+main section #pic div{
+    width: 60%;
+    position: relative;
+    top: 65%;
+    left: 20%;
+    
+  
+    
+}
+
+main section #pic div a{
+    margin-top: 20px;
+    padding: 12px 50px;
+    width: 40%;
+    background-color: orange;
+    color: black;
+    font-weight: bold;
+
+}
+
+main section div:last-child span h1{
+    padding: 15px;
+    color: #eee;
+    font-size: 4em;
+    background-color: rgba(0, 0,0,0.5);
+    width: 90%;
+    margin-bottom: 0.5em;
+}
+
+}
+
+@media screen and (max-width: 1200px){
+    body{
+        background-color: yellow;
+    }
+}
